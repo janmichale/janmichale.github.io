@@ -1,8 +1,8 @@
 body
 {
     background-image:url("tlo.png");
-    font-style:italic;
-    color:aquamarine;
+    font-style:bold;
+    color:red;
     font-size: larger;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
