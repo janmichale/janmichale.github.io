@@ -2,7 +2,7 @@ body
 {
     background-image:url("Gif_Background.gif");
     font-style:bold;
-    color:black;
+    color:grey;
     font-size: larger;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
