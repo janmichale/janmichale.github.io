@@ -2,12 +2,68 @@ body
 {
     background-image:url("swiss-mountains.png");
     font-style:bold;
-    color:FireBrick;
+    color:white;
     font-size: larger;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .c-tabela 
 {
+  margin-top:50px;
+  margin-bottom:50px;
   width:800px;  
+  border-collapse: collapse; 
+  -webkit-box-shadow: -1px 16px 24px 13px rgba(0, 0, 0, 1);
+  -moz-box-shadow: -1px 16px 24px 13px rgba(0, 0, 0, 1);
+  box-shadow: -1px 16px 24px 13px rgba(0, 0, 0, 1);
+}
+
+.c-tabela th
+{
+	padding:20px;
+	font-size:28px;
+	color:#D6D6D6;
+	background-color:#162955;
+}
+
+.c-tabela td:nth-child(1) {  
+  width:300px;
+  text-align:left;
+  vertical-align: top;
+  font-size: 26px;
+  font-weight:600;
+  background-color:#2E4172;
+  padding:20px;
+}
+
+.c-tabela td:nth-child(2) {  
+  text-align:left;
+  vertical-align: top;
+  font-size: 20px;
+  font-weight:600;
+  background-color:#4F628E;
+  padding:20px;
+}
+.myButton {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:17px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:23px;
+	font-weight:bold;
+	padding:20px 47px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
